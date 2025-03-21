@@ -1,0 +1,29 @@
+&location
+City='Temixco'
+StateProv='Morelos'
+Country='MEX'
+InLat=18.85
+InLong=-99.14
+InElev=1280
+InTime=-6
+/
+
+&miscdata
+Comments1='archivo generado por gbv a partir de un archivo de EH'
+SourceData = 'EH, Tsa'
+/
+
+&wthdata
+NumInHour=60
+InputFileType='CUSTOM'
+InFormat='DELIMITED'
+DataElements=Year,Month,Day,Hour,Minute,DryBulb,GloHorRad,DifHorRad
+DataUnits=x,x,x,x,x,'C','Wh/m2','Wh/m2'
+DataConversionFactors=1,1,1,1,1,1,1,1
+DelimiterChar=','
+/
+
+&datacontrol
+NumRecordsToSkip=0
+MaxNumRecordsToRead=525600
+/

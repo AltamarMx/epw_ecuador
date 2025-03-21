@@ -2,7 +2,7 @@
 City='Napo'
 StateProv='Tena'
 Country='ECU'
-InLat=-0.96
+InLat=-0.9655
 InLong=-77.83
 InElev=595
 InTime=-5
@@ -26,5 +26,5 @@ DelimiterChar=','
 
 &datacontrol
 NumRecordsToSkip=0
-MaxNumRecordsToRead=86340
+MaxNumRecordsToRead=525600
 /

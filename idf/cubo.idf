@@ -59,16 +59,6 @@ Timestep,
     60;                      !- Number of Timesteps per Hour
 
 
-!-   ===========  ALL OBJECTS IN CLASS: SITE:LOCATION ===========
-
-Site:Location,
-    Temixco,                 !- Name
-    18.85,                   !- Latitude {deg}
-    -99.14,                  !- Longitude {deg}
-    -6,                      !- Time Zone {hr}
-    1280;                    !- Elevation {m}
-
-
 !-   ===========  ALL OBJECTS IN CLASS: RUNPERIOD ===========
 
 RunPeriod,
@@ -78,7 +68,7 @@ RunPeriod,
     2024,                    !- Begin Year
     12,                      !- End Month
     30,                      !- End Day of Month
-    2025,                    !- End Year
+    2024,                    !- End Year
     ,                        !- Day of Week for Start Day
     No,                      !- Use Weather File Holidays and Special Days
     No,                      !- Use Weather File Daylight Saving Period

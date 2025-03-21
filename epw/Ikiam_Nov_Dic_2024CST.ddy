@@ -5,7 +5,7 @@
   
  Site:Location,
   Napo_Tena_ECU Design_Conditions,     !- Location Name
-      -0.96,     !- Latitude {N+ S-}
+      -0.97,     !- Latitude {N+ S-}
      -77.83,     !- Longitude {W- E+}
       -5.00,     !- Time Zone Relative to GMT {GMT+/-}
      595.00;     !- Elevation {m}
